@@ -19,14 +19,12 @@
 
 namespace CaliburnMicroReactiveUI.Sample.Commands.ViewModels
 {
-    using CaliburnMicroReactiveUI.Sample.Commands.Views;
     using Caliburn.Micro.ReactiveUI;
     using ReactiveUI;
     using System;
-    using System.Reactive;
-    using System.Reactive.Linq;
     using System.Reactive.Subjects;
     using System.Threading;
+    using Views;
 
     public class ShellViewModel : ReactivePropertyChangedBase, IShell
     {

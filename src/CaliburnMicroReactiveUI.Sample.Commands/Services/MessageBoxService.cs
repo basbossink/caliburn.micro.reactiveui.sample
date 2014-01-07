@@ -19,7 +19,7 @@
 
 namespace CaliburnMicroReactiveUI.Sample.Commands.Services
 {
-    using CaliburnMicroReactiveUI.Sample.Commands.ViewModels;
+    using ViewModels;
     using System.Windows;
 
     public class MessageBoxService : IMessageBoxService
